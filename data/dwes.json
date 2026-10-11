@@ -1,0 +1,78 @@
+{
+  "temas": [
+    {
+      "id": "tema-demo",
+      "titulo": "Tema de demostración (ejemplo)",
+      "descripcion": "Tema de muestra para ver cómo se ven los distintos tipos de archivo. Bórralo cuando añadas tus temas reales.",
+      "ejemplo": true,
+      "etiquetas": ["demo"],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Cómo se muestran los apuntes",
+          "descripcion": "Texto con formato y bloques de código.",
+          "etiquetas": ["demo"],
+          "contenido": [
+            "Esto es **solo una demostración**. Los apuntes pueden incluir listas:",
+            "",
+            "- Párrafos y títulos.",
+            "- Código en línea, como `echo`.",
+            "- Bloques de código con resaltado:",
+            "",
+            "```php",
+            "<?php",
+            "$nombre = \"Mundo\";",
+            "echo \"Hola, $nombre\";",
+            "```",
+            "",
+            "También puedes enlazar a [la documentación oficial de PHP](https://www.php.net/manual/es/)."
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "id": "e-01",
+          "titulo": "Variables y salida en PHP",
+          "descripcion": "Ejemplo de demostración con un único archivo PHP.",
+          "etiquetas": ["demo", "php"],
+          "carpeta": "archivos/dwes/tema-demo/ejemplos/e-01/",
+          "contenido": "Un archivo `.php` se muestra con su resaltado, pero **no se ejecuta** en esta web: GitHub Pages solo sirve archivos estáticos.",
+          "archivos": ["ejemplo.php"]
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Tabla de multiplicar",
+          "descripcion": "Ejercicio de demostración con PHP mezclado con HTML y un archivo de texto.",
+          "etiquetas": ["demo", "php"],
+          "carpeta": "archivos/dwes/tema-demo/ejercicios/ej-01/",
+          "enunciado": [
+            "Escribe una página PHP que muestre la tabla de multiplicar del número recibido por la URL (`?n=7`).",
+            "",
+            "1. Si no se recibe ningún número, usa el 5.",
+            "2. Valida que el valor sea un entero entre 1 y 10.",
+            "3. Muestra el resultado en una lista ordenada."
+          ],
+          "archivos": [
+            "index.php",
+            { "ruta": "datos.txt", "etiqueta": "Salida esperada para n=3" }
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Clase Persona",
+          "descripcion": "Ejercicio de demostración con varios archivos Java y un XML.",
+          "etiquetas": ["demo", "java", "xml"],
+          "carpeta": "archivos/dwes/tema-demo/ejercicios/ej-02/",
+          "enunciado": [
+            "Crea la clase `Persona` con nombre y edad, un método `esMayorDeEdad()` y un `main` que cree dos personas y muestre si son mayores de edad.",
+            "",
+            "Añade un archivo XML con los datos de ejemplo."
+          ],
+          "archivos": ["Persona.java", "Main.java", "personas.xml"]
+        }
+      ]
+    }
+  ]
+}

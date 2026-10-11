@@ -1,0 +1,100 @@
+{
+  "temas": [
+    {
+      "id": "tema-demo",
+      "titulo": "Tema de demostración (ejemplo)",
+      "descripcion": "Tema de muestra para ver cómo se ven la teoría, los ejemplos y los ejercicios. Bórralo cuando añadas tus temas reales.",
+      "ejemplo": true,
+      "etiquetas": ["demo"],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Cómo se muestran los apuntes",
+          "descripcion": "Texto con formato y un PDF incrustado.",
+          "etiquetas": ["demo", "pdf"],
+          "carpeta": "archivos/diweb/tema-demo/teoria/t-01/",
+          "contenido": [
+            "Esta página es **solo una demostración**. El texto admite párrafos, `código en línea`, listas y bloques de código.",
+            "",
+            "## Ejemplo de bloque de código",
+            "",
+            "```css",
+            ".tarjeta {",
+            "  display: grid;",
+            "  gap: 1rem;",
+            "  padding: 1.5rem;",
+            "}",
+            "```",
+            "",
+            "Debajo se muestra un PDF. Si tu navegador no puede mostrarlo, aparece un enlace para abrirlo o descargarlo."
+          ],
+          "archivos": ["demo.pdf"]
+        }
+      ],
+      "ejemplos": [
+        {
+          "id": "e-01",
+          "titulo": "Centrar contenido con Flexbox",
+          "descripcion": "Ejemplo de demostración con HTML y CSS en pestañas separadas y vista previa.",
+          "etiquetas": ["demo", "css", "flexbox"],
+          "carpeta": "archivos/diweb/tema-demo/ejemplos/e-01/",
+          "contenido": [
+            "Con `display: flex` en el contenedor, las propiedades `justify-content` y `align-items` centran el contenido en los dos ejes.",
+            "",
+            "Pulsa «Ejecutar demostración» para verlo funcionando."
+          ],
+          "archivos": ["index.html", "style.css"],
+          "demo": true
+        }
+      ],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Contador de clics",
+          "descripcion": "Ejercicio de demostración con HTML, CSS y JavaScript.",
+          "etiquetas": ["demo", "html", "css", "javascript"],
+          "carpeta": "archivos/diweb/tema-demo/ejercicios/ej-01/",
+          "enunciado": [
+            "Crea una página con un contador que empieza en 0. Debe tener tres botones:",
+            "",
+            "- **+1** suma una unidad.",
+            "- **−1** resta una unidad.",
+            "- **Reiniciar** vuelve a dejar el contador en 0.",
+            "",
+            "El valor debe anunciarse a los lectores de pantalla cuando cambie (`aria-live`)."
+          ],
+          "notas": "Este ejercicio es una demostración del sistema, no un ejercicio real de clase.",
+          "archivos": [
+            { "ruta": "index.html", "etiqueta": "Estructura" },
+            "style.css",
+            "script.js"
+          ],
+          "demo": true
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Tarjeta de perfil adaptable",
+          "descripcion": "Segundo ejercicio de demostración, para probar la navegación entre ejercicios.",
+          "etiquetas": ["demo", "responsive"],
+          "carpeta": "archivos/diweb/tema-demo/ejercicios/ej-02/",
+          "enunciado": [
+            "Diseña una tarjeta de perfil que en pantallas anchas muestre la foto a la izquierda y el texto a la derecha, y en pantallas estrechas las apile en una columna.",
+            "",
+            "Usa una **media query** con `max-width` y evita anchuras fijas en píxeles."
+          ],
+          "solucion": [
+            "La clave está en usar `flex-wrap` o una media query que cambie `flex-direction` a `column`.",
+            "",
+            "```css",
+            "@media (max-width: 480px) {",
+            "  .perfil { flex-direction: column; text-align: center; }",
+            "}",
+            "```"
+          ],
+          "archivos": ["index.html", "style.css"],
+          "demo": true
+        }
+      ]
+    }
+  ]
+}

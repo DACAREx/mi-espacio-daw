@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Datos de ejemplo -->
+<personas>
+  <persona id="1">
+    <nombre>Ana</nombre>
+    <edad>22</edad>
+  </persona>
+  <persona id="2">
+    <nombre>Leo</nombre>
+    <edad>15</edad>
+  </persona>
+</personas>
