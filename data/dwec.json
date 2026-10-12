@@ -1,3 +1,4 @@
+
 {
   "temas": [
     {
@@ -22,11 +23,97 @@
         {
           "id": "ej-01",
           "titulo": "Hola Mundo",
-          "descripcion": "Mostrar Hola Mundo en una pagina web.",
+          "descripcion": "Mostrar un mensaje Hola Mundo al cargar la página.",
           "etiquetas": ["html", "javascript"],
           "carpeta": "archivos/dwec/tema-01/ejercicios/ej-01/",
-          "enunciado": ["Crea un archivo web que al cargarse muestre un mensaje Hola Mundo."],
-          "archivos": ["ej-01.html"],
+          "enunciado": [
+            "Crea un archivo web que al cargarse muestre un mensaje Hola Mundo."
+          ],
+          "archivos": ["index.html"],
+          "demo": true
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Preguntar al usuario",
+          "descripcion": "Solicitar una respuesta y mostrarla en una alerta.",
+          "etiquetas": ["javascript", "prompt", "alert"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-02/",
+          "enunciado": [
+            "Crea un archivo web que pregunte al usuario una pregunta y muestre un mensaje con la respuesta recibida."
+          ],
+          "archivos": ["index.html"],
+          "demo": true
+        },
+        {
+          "id": "ej-03",
+          "titulo": "Comentarios",
+          "descripcion": "Utilizar comentarios de una línea y de varias líneas.",
+          "etiquetas": ["javascript", "comentarios"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-03/",
+          "enunciado": [
+            "Modifica los ejercicios previos incluyendo comentarios de ambos tipos."
+          ],
+          "archivos": ["index.html"],
+          "demo": true
+        },
+        {
+          "id": "ej-04",
+          "titulo": "Variables y constantes",
+          "descripcion": "Crear y mostrar una variable numérica y una constante matemática.",
+          "etiquetas": ["javascript", "variables", "constantes"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-04/",
+          "enunciado": [
+            "Crea una variable con un número y muéstralo en una alerta. Haz lo mismo con una constante matemática."
+          ],
+          "archivos": ["index.html"],
+          "demo": true
+        },
+        {
+          "id": "ej-05",
+          "titulo": "Suma de dos números",
+          "descripcion": "Solicitar dos números y mostrar su suma.",
+          "etiquetas": ["javascript", "operadores"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-05/",
+          "enunciado": [
+            "Solicita dos números y muestra el resultado de su suma."
+          ],
+          "archivos": ["index.html"],
+          "demo": true
+        },
+        {
+          "id": "ej-06",
+          "titulo": "Conversión de velocidad",
+          "descripcion": "Convertir una velocidad de kilómetros por hora a metros por segundo.",
+          "etiquetas": ["javascript", "operadores"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-06/",
+          "enunciado": [
+            "Solicita una velocidad en km/h y muestra el valor convertido a m/s."
+          ],
+          "archivos": ["index.html"],
+          "demo": true
+        },
+        {
+          "id": "ej-07",
+          "titulo": "Salto de línea",
+          "descripcion": "Mostrar un texto con un salto de línea.",
+          "etiquetas": ["javascript", "caracteres especiales"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-07/",
+          "enunciado": [
+            "Crea un archivo web que muestre un salto de línea."
+          ],
+          "archivos": ["index.html"],
+          "demo": true
+        },
+        {
+          "id": "ej-08",
+          "titulo": "Tipos de comillas",
+          "descripcion": "Mostrar un texto con diferentes tipos de comillas.",
+          "etiquetas": ["javascript", "caracteres especiales"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-08/",
+          "enunciado": [
+            "Crea un archivo web que muestre un texto con varios tipos de comillas."
+          ],
+          "archivos": ["index.html"],
           "demo": true
         }
       ]
