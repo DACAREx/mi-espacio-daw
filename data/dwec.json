@@ -1,43 +1,32 @@
 {
   "temas": [
     {
-      "id": "tema-demo",
-      "titulo": "Tema de demostración (ejemplo)",
-      "descripcion": "Tema de muestra para ver cómo se ven los apuntes y los ejercicios con demostración. Bórralo cuando añadas tus temas reales.",
-      "ejemplo": true,
-      "etiquetas": ["demo"],
+      "id": "tema-01",
+      "titulo": "Introduccion a JavaScript",
+      "descripcion": "Tema de introducción a JavaScript con ejemplos y ejercicios.",
+      "ejemplo": false,
+      "etiquetas": ["javascript"],
       "teoria": [
         {
           "id": "t-01",
-          "titulo": "Cómo se muestran los apuntes",
-          "descripcion": "Texto con formato y un bloque de código JavaScript.",
-          "etiquetas": ["demo", "javascript"],
-          "contenido": [
-            "Esto es **solo una demostración**. Un bloque de código se escribe así:",
-            "",
-            "```javascript",
-            "const boton = document.querySelector('#saludar');",
-            "boton.addEventListener('click', () => {",
-            "  console.log('Hola');",
-            "});",
-            "```"
-          ]
+          "titulo": "Introduccion a JavaScript",
+          "descripcion": "Tema de introducción a JavaScript con ejemplos y ejercicios.",
+          "etiquetas": ["javascript"],
+          "carpeta": "archivos/dwec/tema-01/teoria/t-01/",
+          "contenido": ["Resumen del tema"],
+          "archivos": ["apuntes-tema1.pdf"]
         }
       ],
       "ejemplos": [],
       "ejercicios": [
         {
           "id": "ej-01",
-          "titulo": "Saludo con eventos",
-          "descripcion": "Ejercicio de demostración con HTML y JavaScript.",
-          "etiquetas": ["demo", "javascript", "dom"],
-          "carpeta": "archivos/dwec/tema-demo/ejercicios/ej-01/",
-          "enunciado": [
-            "Crea una página con un campo de texto y un botón. Al pulsar el botón, debe mostrarse debajo el mensaje «Hola, » seguido del nombre escrito.",
-            "",
-            "Si el campo está vacío, muestra un aviso en su lugar."
-          ],
-          "archivos": ["index.html", "script.js"],
+          "titulo": "Hola Mundo",
+          "descripcion": "Mostrar Hola Mundo en una pagina web.",
+          "etiquetas": ["html", "javascript"],
+          "carpeta": "archivos/dwec/tema-01/ejercicios/ej-01/",
+          "enunciado": ["Crea un archivo web que al cargarse muestre un mensaje Hola Mundo."],
+          "archivos": ["ej-01.html"],
           "demo": true
         }
       ]
