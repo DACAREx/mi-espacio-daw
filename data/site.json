@@ -26,6 +26,14 @@
       "datos": "data/dwes.json"
     },
     {
+      "id": "dwec",
+      "siglas": "DWEC",
+      "nombre": "Desarrollo Web en Entorno Cliente",
+      "descripcion": "Programación en el lado del cliente: JavaScript, manipulación del DOM, eventos y comunicación con el servidor desde el navegador.",
+      "icono": "code",
+      "datos": "data/dwec.json"
+    },
+    {
       "id": "daweb",
       "siglas": "DAWEB",
       "nombre": "Despliegue de Aplicaciones Web",

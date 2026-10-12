@@ -516,7 +516,7 @@
           : h('div', { class: 'subject-stats' }, h('span', null, a.temas.length ? 'Aún sin temas propios. Incluye un tema de demostración.' : 'Aún sin temas.')),
         h('div', { class: 'btn-row' },
           h('a', { class: 'btn btn-primary', href: link(a.id), 'aria-label': 'Entrar en ' + a.siglas }, 'Entrar'),
-          ExternalBtn(a.moodle, 'Material original')));
+          a.moodle ? ExternalBtn(a.moodle, 'Material original') : null));
     });
 
     return {
@@ -534,7 +534,7 @@
       kicker: a.nombre,
       title: a.siglas,
       lead: a.descripcion,
-      actions: [ExternalBtn(a.moodle, 'Material original del centro')]
+      actions: a.moodle ? [ExternalBtn(a.moodle, 'Material original del centro')] : null
     });
     const progress = h('div', { class: 'card panel', style: 'padding:1rem 1.25rem;max-width:30rem;margin-bottom:.5rem' }, progressBar(items, 'Aún no hay temas reales para medir el progreso'));
 
@@ -761,7 +761,7 @@
             h('dt', null, 'Curso'), h('dd', null, s.curso),
             h('dt', null, 'GitHub'), h('dd', null, h('a', { href: s.repositorio, target: '_blank', rel: 'noopener noreferrer' }, s.githubUsuario + ' / repositorio')))),
         h('section', { class: 'card' }, h('h2', null, 'Material original'),
-          h('ul', null, store.asigs.map((a) => h('li', null, h('a', { href: a.moodle, target: '_blank', rel: 'noopener noreferrer' }, a.siglas + ' · ' + a.nombre))))),
+          h('ul', null, store.asigs.map((a) => h('li', null, a.moodle ? h('a', { href: a.moodle, target: '_blank', rel: 'noopener noreferrer' }, a.siglas + ' · ' + a.nombre) : a.siglas + ' · ' + a.nombre + ' (sin enlace todavía)')))),
         h('section', { class: 'card' }, h('h2', null, 'Cómo está hecha'),
           h('p', null, 'HTML, CSS y JavaScript sin frameworks ni servidor. El contenido se define en archivos JSON dentro de ', h('code', null, 'data/'), ' y los archivos de código en ', h('code', null, 'archivos/'), '.'),
           h('p', null, 'El resaltado de sintaxis es propio, así que no se carga ninguna librería externa.')),

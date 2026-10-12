@@ -31,7 +31,7 @@ if (site) {
   const idsAsig = new Set();
   for (const a of site.asignaturas || []) {
     const donde = `asignatura «${a.id}»`;
-    for (const campo of ['id', 'siglas', 'nombre', 'descripcion', 'moodle', 'datos']) {
+    for (const campo of ['id', 'siglas', 'nombre', 'descripcion', 'datos']) {
       if (!a[campo]) errores.push(`${donde}: falta el campo «${campo}»`);
     }
     if (idsAsig.has(a.id)) errores.push(`${donde}: id repetido`);

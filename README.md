@@ -6,7 +6,7 @@ Es una web **estática** (HTML, CSS y JavaScript, sin frameworks ni servidor), p
 - Autor: David Carrero Real
 - Centro: IES Nuestra Señora de los Remedios, Ubrique
 - Curso: 2026/2027
-- Asignaturas: DIWEB, DWES y DAWEB
+- Asignaturas: DIWEB, DWES, DWEC y DAWEB
 
 ## Publicarla en GitHub Pages
 
@@ -50,6 +50,7 @@ mi-espacio-daw/
 │   ├── site.json           Tus datos y la lista de asignaturas
 │   ├── diweb.json          Temas y ejercicios de DIWEB
 │   ├── dwes.json           Temas y ejercicios de DWES
+│   ├── dwec.json           Temas y ejercicios de DWEC
 │   └── daweb.json          Temas y ejercicios de DAWEB
 ├── archivos/               AQUÍ SE GUARDAN LOS ARCHIVOS REALES
 │   └── <asignatura>/<tema>/<teoria|ejemplos|ejercicios>/<elemento>/…
@@ -58,7 +59,7 @@ mi-espacio-daw/
 
 La navegación usa direcciones con `#`, por ejemplo `#/dwes/tema-01/ejercicios/ej-02`. Así no hay que crear una página HTML por cada ejercicio y nunca se rompen las rutas en GitHub Pages.
 
-Cada asignatura en `site.json` apunta a su JSON con la clave `datos`. Los JSON describen los temas y **apuntan** a los archivos de `archivos/` mediante rutas. La web une ambas cosas al cargarse.
+Cada asignatura en `site.json` apunta a su JSON con la clave `datos`. La clave `moodle` (enlace al material original) es opcional: si no la pones, no se muestra el botón. DWEC no la tiene todavía; añádela en `data/site.json` cuando tengas el enlace. Los JSON describen los temas y **apuntan** a los archivos de `archivos/` mediante rutas. La web une ambas cosas al cargarse.
 
 ## Añadir contenido
 
