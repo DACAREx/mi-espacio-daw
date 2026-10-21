@@ -1,98 +1,164 @@
 {
   "temas": [
     {
-      "id": "tema-demo",
-      "titulo": "Tema de demostración (ejemplo)",
-      "descripcion": "Tema de muestra para ver cómo se ven la teoría, los ejemplos y los ejercicios. Bórralo cuando añadas tus temas reales.",
-      "ejemplo": true,
-      "etiquetas": ["demo"],
-      "teoria": [
-        {
-          "id": "t-01",
-          "titulo": "Cómo se muestran los apuntes",
-          "descripcion": "Texto con formato y un PDF incrustado.",
-          "etiquetas": ["demo", "pdf"],
-          "carpeta": "archivos/diweb/tema-demo/teoria/t-01/",
-          "contenido": [
-            "Esta página es **solo una demostración**. El texto admite párrafos, `código en línea`, listas y bloques de código.",
-            "",
-            "## Ejemplo de bloque de código",
-            "",
-            "```css",
-            ".tarjeta {",
-            "  display: grid;",
-            "  gap: 1rem;",
-            "  padding: 1.5rem;",
-            "}",
-            "```",
-            "",
-            "Debajo se muestra un PDF. Si tu navegador no puede mostrarlo, aparece un enlace para abrirlo o descargarlo."
-          ],
-          "archivos": ["demo.pdf"]
-        }
+      "id": "tema-01",
+      "numero": 1,
+      "titulo": "Introducción al diseño de interfaces web",
+      "descripcion": "Historia, tendencias, UI y UX, principios de diseño y leyes de la Gestalt.",
+      "etiquetas": [
+        "introducción"
       ],
-      "ejemplos": [
-        {
-          "id": "e-01",
-          "titulo": "Centrar contenido con Flexbox",
-          "descripcion": "Ejemplo de demostración con HTML y CSS en pestañas separadas y vista previa.",
-          "etiquetas": ["demo", "css", "flexbox"],
-          "carpeta": "archivos/diweb/tema-demo/ejemplos/e-01/",
-          "contenido": [
-            "Con `display: flex` en el contenedor, las propiedades `justify-content` y `align-items` centran el contenido en los dos ejes.",
-            "",
-            "Pulsa «Ejecutar demostración» para verlo funcionando."
-          ],
-          "archivos": ["index.html", "style.css"],
-          "demo": true
-        }
-      ],
+      "teoria": [],
+      "ejemplos": [],
       "ejercicios": [
         {
           "id": "ej-01",
-          "titulo": "Contador de clics",
-          "descripcion": "Ejercicio de demostración con HTML, CSS y JavaScript.",
-          "etiquetas": ["demo", "html", "css", "javascript"],
-          "carpeta": "archivos/diweb/tema-demo/ejercicios/ej-01/",
-          "enunciado": [
-            "Crea una página con un contador que empieza en 0. Debe tener tres botones:",
-            "",
-            "- **+1** suma una unidad.",
-            "- **−1** resta una unidad.",
-            "- **Reiniciar** vuelve a dejar el contador en 0.",
-            "",
-            "El valor debe anunciarse a los lectores de pantalla cuando cambie (`aria-live`)."
+          "titulo": "Línea de tiempo del diseño web",
+          "descripcion": "Hitos de la web desde 1989 hasta 2014.",
+          "etiquetas": [
+            "historia"
           ],
-          "notas": "Este ejercicio es una demostración del sistema, no un ejercicio real de clase.",
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-01/",
           "archivos": [
-            { "ruta": "index.html", "etiqueta": "Estructura" },
-            "style.css",
-            "script.js"
+            "linea-del-tiempo.png"
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Tendencias actuales en el diseño web",
+          "descripcion": "Tipografías, imágenes, modo oscuro, responsive, PWA, IA y más.",
+          "etiquetas": [
+            "tendencias",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-02/",
+          "archivos": [
+            "tendencias-diseno-web.pdf"
+          ]
+        },
+        {
+          "id": "ej-03",
+          "titulo": "Interacción persona-ordenador: UI y UX",
+          "descripcion": "Diferencia entre interfaz de usuario y experiencia de usuario.",
+          "etiquetas": [
+            "ux",
+            "ui",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-03/",
+          "archivos": [
+            "ui-ux.pdf"
+          ]
+        },
+        {
+          "id": "ej-04",
+          "titulo": "Principios del diseño iterativo",
+          "descripcion": "Consistencia, facilidad de uso, control, accesibilidad y prevención de errores.",
+          "etiquetas": [
+            "principios",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-04/",
+          "archivos": [
+            "principios-diseno.pdf"
+          ]
+        },
+        {
+          "id": "ej-05",
+          "titulo": "Leyes de la Gestalt",
+          "descripcion": "Proximidad, continuidad y figura y fondo, con ejemplos.",
+          "etiquetas": [
+            "gestalt",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-05/",
+          "archivos": [
+            "leyes-gestalt.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tema-02",
+      "numero": 2,
+      "titulo": "Elementos estructurales de HTML5",
+      "descripcion": "Etiquetas semánticas y organización de una página.",
+      "etiquetas": [
+        "html"
+      ],
+      "teoria": [],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Tabla de elementos estructurales",
+          "descripcion": "Componentes, usos, etiquetas HTML5 y ejemplos visuales.",
+          "etiquetas": [
+            "html",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-02/ejercicios/ej-01/",
+          "archivos": [
+            "elementos-estructurales.pdf"
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Página con elementos semánticos de HTML5",
+          "descripcion": "Cabecera, secciones, artículos, tabla, formulario, audio, vídeo y más.",
+          "etiquetas": [
+            "html",
+            "formularios"
+          ],
+          "carpeta": "archivos/diweb/tema-02/ejercicios/ej-02/",
+          "archivos": [
+            "index.html"
           ],
           "demo": true
         },
         {
-          "id": "ej-02",
-          "titulo": "Tarjeta de perfil adaptable",
-          "descripcion": "Segundo ejercicio de demostración, para probar la navegación entre ejercicios.",
-          "etiquetas": ["demo", "responsive"],
-          "carpeta": "archivos/diweb/tema-demo/ejercicios/ej-02/",
-          "enunciado": [
-            "Diseña una tarjeta de perfil que en pantallas anchas muestre la foto a la izquierda y el texto a la derecha, y en pantallas estrechas las apile en una columna.",
-            "",
-            "Usa una **media query** con `max-width` y evita anchuras fijas en píxeles."
+          "id": "ej-03",
+          "titulo": "Elementos conceptuales, visuales, relacionales y prácticos",
+          "descripcion": "Análisis de los elementos de la página anterior.",
+          "etiquetas": [
+            "análisis",
+            "pdf"
           ],
-          "solucion": [
-            "La clave está en usar `flex-wrap` o una media query que cambie `flex-direction` a `column`.",
-            "",
-            "```css",
-            "@media (max-width: 480px) {",
-            "  .perfil { flex-direction: column; text-align: center; }",
-            "}",
-            "```"
+          "carpeta": "archivos/diweb/tema-02/ejercicios/ej-03/",
+          "archivos": [
+            "elementos-conceptuales.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tema-03",
+      "numero": 3,
+      "titulo": "Estructura de navegación",
+      "descripcion": "Páginas enlazadas y mapa del sitio.",
+      "etiquetas": [
+        "navegación"
+      ],
+      "teoria": [],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Web de videojuegos con mapa del sitio",
+          "descripcion": "Tres páginas enlazadas más sitemap.html y sitemap.xml.",
+          "etiquetas": [
+            "html",
+            "sitemap",
+            "xml"
           ],
-          "archivos": ["index.html", "style.css"],
-          "demo": true
+          "carpeta": "archivos/diweb/tema-03/ejercicios/ej-01/",
+          "archivos": [
+            "index.html",
+            "juegos.html",
+            "contacto.html",
+            "sitemap.html",
+            "sitemap.xml"
+          ]
         }
       ]
     }

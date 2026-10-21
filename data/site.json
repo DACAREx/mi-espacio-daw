@@ -41,6 +41,14 @@
       "moodle": "https://educacionadistancia.juntadeandalucia.es/centros/cadiz/course/view.php?id=3026",
       "icono": "cloud",
       "datos": "data/daweb.json"
+    },
+    {
+      "id": "opt",
+      "siglas": "OPT",
+      "nombre": "Optativa",
+      "descripcion": "Asignatura optativa del ciclo. Aquí irán sus apuntes, ejemplos y ejercicios.",
+      "icono": "book",
+      "datos": "data/opt.json"
     }
   ]
 }

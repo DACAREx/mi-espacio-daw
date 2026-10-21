@@ -6,7 +6,7 @@ Es una web **estática** (HTML, CSS y JavaScript, sin frameworks ni servidor), p
 - Autor: David Carrero Real
 - Centro: IES Nuestra Señora de los Remedios, Ubrique
 - Curso: 2026/2027
-- Asignaturas: DIWEB, DWES, DWEC y DAWEB
+- Asignaturas: DIWEB, DWES, DWEC, DAWEB y OPT
 
 ## Publicarla en GitHub Pages
 
@@ -51,6 +51,7 @@ mi-espacio-daw/
 │   ├── diweb.json          Temas y ejercicios de DIWEB
 │   ├── dwes.json           Temas y ejercicios de DWES
 │   ├── dwec.json           Temas y ejercicios de DWEC
+│   ├── opt.json            Temas y ejercicios de OPT
 │   └── daweb.json          Temas y ejercicios de DAWEB
 ├── archivos/               AQUÍ SE GUARDAN LOS ARCHIVOS REALES
 │   └── <asignatura>/<tema>/<teoria|ejemplos|ejercicios>/<elemento>/…

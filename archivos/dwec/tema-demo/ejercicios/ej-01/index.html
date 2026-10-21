@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saludo con eventos</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 2rem; }
+    input, button { font: inherit; padding: .45rem .7rem; }
+    #mensaje { margin-top: 1rem; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <label for="nombre">Tu nombre</label>
+  <input id="nombre" type="text">
+  <button id="saludar" type="button">Saludar</button>
+  <p id="mensaje" aria-live="polite"></p>
+  <script src="script.js"></script>
+</body>
+</html>
