@@ -1,0 +1,69 @@
+{
+  "temas": [
+    {
+      "id": "tema-demo",
+      "titulo": "Tema de demostración (ejemplo)",
+      "descripcion": "Tema de muestra para ver cómo se ven archivos de configuración y scripts. Bórralo cuando añadas tus temas reales.",
+      "ejemplo": true,
+      "etiquetas": [
+        "demo"
+      ],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Cómo se muestran los apuntes",
+          "descripcion": "Texto con formato y un bloque de comandos.",
+          "etiquetas": [
+            "demo"
+          ],
+          "contenido": [
+            "Esto es **solo una demostración**. Un bloque de comandos se escribe así:",
+            "",
+            "```bash",
+            "sudo systemctl status apache2",
+            "sudo systemctl reload apache2",
+            "```"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Comprobar si un puerto responde",
+          "descripcion": "Ejercicio de demostración con un script de Python y su salida.",
+          "etiquetas": [
+            "demo",
+            "python",
+            "redes"
+          ],
+          "carpeta": "archivos/daweb/tema-demo/ejercicios/ej-01/",
+          "enunciado": [
+            "Escribe un script en Python que reciba un servidor y un puerto y diga si se puede abrir una conexión TCP.",
+            "",
+            "- Usa un tiempo máximo de espera de 3 segundos.",
+            "- Devuelve el código de salida 0 si responde y 1 si no."
+          ],
+          "archivos": [
+            "comprobar_puerto.py",
+            "salida.txt"
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Script de despliegue",
+          "descripcion": "Ejercicio de demostración con un script de Bash.",
+          "etiquetas": [
+            "demo",
+            "bash"
+          ],
+          "carpeta": "archivos/daweb/tema-demo/ejercicios/ej-02/",
+          "enunciado": "Escribe un script de Bash que copie el contenido de la carpeta `web/` a `/var/www/html/` y recargue el servidor, parando si algún paso falla.",
+          "archivos": [
+            "desplegar.sh"
+          ]
+        }
+      ]
+    }
+  ]
+}

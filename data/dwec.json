@@ -1,0 +1,46 @@
+{
+  "temas": [
+    {
+      "id": "tema-demo",
+      "titulo": "Tema de demostración (ejemplo)",
+      "descripcion": "Tema de muestra para ver cómo se ven los apuntes y los ejercicios con demostración. Bórralo cuando añadas tus temas reales.",
+      "ejemplo": true,
+      "etiquetas": ["demo"],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Cómo se muestran los apuntes",
+          "descripcion": "Texto con formato y un bloque de código JavaScript.",
+          "etiquetas": ["demo", "javascript"],
+          "contenido": [
+            "Esto es **solo una demostración**. Un bloque de código se escribe así:",
+            "",
+            "```javascript",
+            "const boton = document.querySelector('#saludar');",
+            "boton.addEventListener('click', () => {",
+            "  console.log('Hola');",
+            "});",
+            "```"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Saludo con eventos",
+          "descripcion": "Ejercicio de demostración con HTML y JavaScript.",
+          "etiquetas": ["demo", "javascript", "dom"],
+          "carpeta": "archivos/dwec/tema-demo/ejercicios/ej-01/",
+          "enunciado": [
+            "Crea una página con un campo de texto y un botón. Al pulsar el botón, debe mostrarse debajo el mensaje «Hola, » seguido del nombre escrito.",
+            "",
+            "Si el campo está vacío, muestra un aviso en su lugar."
+          ],
+          "archivos": ["index.html", "script.js"],
+          "demo": true
+        }
+      ]
+    }
+  ]
+}

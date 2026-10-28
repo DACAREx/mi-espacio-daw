@@ -1,0 +1,4 @@
+$ python comprobar_puerto.py localhost 80
+localhost:80 responde
+$ python comprobar_puerto.py localhost 9999
+localhost:9999 no responde

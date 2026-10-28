@@ -1,0 +1,305 @@
+<!DOCTYPE html> <html lang="es"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="description" content="Ejemplo sencillo de estructura HTML5"> <title>Ejemplo de HTML5</title> </head> <body>
+<header>
+    <h1>Mi sitio web</h1>
+
+    <p>Ejemplo de una página construida únicamente con HTML5.</p>
+
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#articulos">Artículos</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="inicio">
+
+    <section>
+        <h2>Presentación</h2>
+
+        <p>
+            Esta página utiliza diferentes elementos semánticos de HTML5
+            para organizar el contenido.
+        </p>
+
+        <figure>
+            <img
+                src="https://via.placeholder.com/400x200"
+                alt="Imagen de ejemplo"
+            >
+            <figcaption>Figura 1. Imagen de ejemplo.</figcaption>
+        </figure>
+    </section>
+
+    <section id="articulos">
+        <h2>Artículos</h2>
+
+        <article>
+            <header>
+                <h3>Primer artículo</h3>
+                <p>
+                    Publicado el
+                    <time datetime="2026-09-30">30 de septiembre de 2026</time>
+                </p>
+            </header>
+
+            <p>
+                Este es el contenido principal del primer artículo.
+                HTML5 permite organizar la información mediante elementos
+                semánticos.
+            </p>
+
+            <footer>
+                <p>Autor: Ejemplo</p>
+            </footer>
+        </article>
+
+        <article>
+            <h3>Segundo artículo</h3>
+
+            <p>
+                Otro ejemplo de contenido independiente dentro de la página.
+            </p>
+
+            <details>
+                <summary>Leer más</summary>
+                <p>
+                    Este contenido aparece cuando el usuario abre
+                    el elemento desplegable.
+                </p>
+            </details>
+        </article>
+    </section>
+
+    <section>
+        <h2>Información</h2>
+
+        <aside>
+            <h3>Dato adicional</h3>
+            <p>
+                Este contenido está relacionado con la sección,
+                pero no forma parte directamente del contenido principal.
+            </p>
+        </aside>
+
+        <p>
+            Una palabra puede estar <strong>en negrita</strong>,
+            otra puede estar <em>enfatizada</em> y otra puede estar
+            <mark>resaltada</mark>.
+        </p>
+
+        <blockquote>
+            <p>La simplicidad es la máxima sofisticación.</p>
+            <cite>— Atribuido a Leonardo da Vinci</cite>
+        </blockquote>
+    </section>
+
+    <section>
+        <h2>Lista de elementos</h2>
+
+        <h3>Lista desordenada</h3>
+        <ul>
+            <li>HTML</li>
+            <li>Elementos semánticos</li>
+            <li>Formularios</li>
+        </ul>
+
+        <h3>Lista ordenada</h3>
+        <ol>
+            <li>Crear el documento</li>
+            <li>Añadir la estructura</li>
+            <li>Introducir el contenido</li>
+        </ol>
+
+        <h3>Lista de definición</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lenguaje de marcado utilizado para estructurar páginas web.</dd>
+
+            <dt>Elemento</dt>
+            <dd>Parte de la estructura de un documento HTML.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Tabla</h2>
+
+        <table border="1">
+            <caption>Ejemplo de tabla HTML5</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Elemento</th>
+                    <th scope="col">Función</th>
+                    <th scope="col">Ejemplo</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>header</td>
+                    <td>Cabecera</td>
+                    <td>Encabezado de una página</td>
+                </tr>
+                <tr>
+                    <td>main</td>
+                    <td>Contenido principal</td>
+                    <td>Contenido central</td>
+                </tr>
+                <tr>
+                    <td>footer</td>
+                    <td>Pie de página</td>
+                    <td>Información final</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Fin de la tabla</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section>
+        <h2>Formulario</h2>
+
+        <form id="formulario" action="#" method="post">
+
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="email">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+                </p>
+
+                <p>
+                    <label for="fecha">Fecha:</label>
+                    <input
+                        type="date"
+                        id="fecha"
+                        name="fecha"
+                    >
+                </p>
+
+                <p>
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais">
+                        <option value="">Selecciona un país</option>
+                        <option value="es">España</option>
+                        <option value="fr">Francia</option>
+                        <option value="it">Italia</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label>
+                    <br>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        cols="40"
+                    ></textarea>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="aceptar">
+                        Acepto las condiciones
+                    </label>
+                </p>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h2>Contenido multimedia</h2>
+
+        <h3>Audio</h3>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Tu navegador no admite audio HTML5.
+        </audio>
+
+        <h3>Vídeo</h3>
+
+        <video controls width="400">
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no admite vídeo HTML5.
+        </video>
+    </section>
+
+    <section>
+        <h2>Progreso y medición</h2>
+
+        <p>
+            Progreso:
+            <progress value="70" max="100">70%</progress>
+        </p>
+
+        <p>
+            Nivel:
+            <meter value="0.8">80%</meter>
+        </p>
+    </section>
+
+    <section>
+        <h2>Contenido técnico</h2>
+
+        <pre><code>
+
+<h1>Hola mundo</h1>
+<p>Este es un ejemplo de HTML5.</p>
+</code></pre>
+
+        <p>
+            Presiona <kbd>Ctrl</kbd> + <kbd>S</kbd> para guardar.
+        </p>
+
+        <p>
+            Resultado de ejemplo:
+            <samp>Archivo guardado correctamente.</samp>
+        </p>
+    </section>
+
+</main>
+
+<footer id="contacto">
+    <h2>Contacto</h2>
+
+    <address>
+        Escrito por <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a><br>
+        Madrid, España
+    </address>
+
+    <p>
+        <small>&copy; 2026 Mi sitio web. Todos los derechos reservados.</small>
+    </p>
+</footer>
+
+</body> </html>

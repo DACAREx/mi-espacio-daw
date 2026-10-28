@@ -1,0 +1,59 @@
+{
+  "titulo": "Mi espacio DAW",
+  "autor": "David Carrero Real",
+  "estudios": "2.º de Desarrollo de Aplicaciones Web (DAW)",
+  "centro": "IES Nuestra Señora de los Remedios, Ubrique",
+  "curso": "2026/2027",
+  "githubUsuario": "DACAREx",
+  "repositorio": "https://github.com/DACAREx/mi-espacio-daw",
+  "asignaturas": [
+    {
+      "id": "diweb",
+      "siglas": "DIWEB",
+      "nombre": "Diseño de Interfaces Web",
+      "descripcion": "Diseño y maquetación de la interfaz de una aplicación web: HTML, CSS, diseño adaptable, usabilidad y accesibilidad.",
+      "moodle": "https://educacionadistancia.juntadeandalucia.es/centros/cadiz/course/view.php?id=6134",
+      "icono": "layout",
+      "datos": "data/diweb.json"
+    },
+    {
+      "id": "dwes",
+      "siglas": "DWES",
+      "nombre": "Desarrollo Web en Entorno Servidor",
+      "descripcion": "Programación en el lado del servidor: generación dinámica de páginas, acceso a datos y estructura de aplicaciones web.",
+      "moodle": "https://educacionadistancia.juntadeandalucia.es/centros/cadiz/course/view.php?id=3159",
+      "icono": "server",
+      "datos": "data/dwes.json",
+      "apartados": [
+        "teoria",
+        "ejemplos",
+        "ejercicios"
+      ]
+    },
+    {
+      "id": "dwec",
+      "siglas": "DWEC",
+      "nombre": "Desarrollo Web en Entorno Cliente",
+      "descripcion": "Programación en el lado del cliente: JavaScript, manipulación del DOM, eventos y comunicación con el servidor desde el navegador.",
+      "icono": "code",
+      "datos": "data/dwec.json"
+    },
+    {
+      "id": "daweb",
+      "siglas": "DAWEB",
+      "nombre": "Despliegue de Aplicaciones Web",
+      "descripcion": "Instalación, configuración y publicación de aplicaciones web en servidores, con sus herramientas de apoyo.",
+      "moodle": "https://educacionadistancia.juntadeandalucia.es/centros/cadiz/course/view.php?id=3026",
+      "icono": "cloud",
+      "datos": "data/daweb.json"
+    },
+    {
+      "id": "opt",
+      "siglas": "OPT",
+      "nombre": "Optativa",
+      "descripcion": "Asignatura optativa del ciclo. Aquí irán sus apuntes y ejercicios.",
+      "icono": "book",
+      "datos": "data/opt.json"
+    }
+  ]
+}

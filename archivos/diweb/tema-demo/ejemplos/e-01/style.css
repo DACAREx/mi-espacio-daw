@@ -1,0 +1,22 @@
+/* El contenedor ocupa toda la altura de la ventana */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.contenedor {
+  min-height: 100vh;
+  display: flex;               /* activa Flexbox */
+  justify-content: center;     /* centra en horizontal */
+  align-items: center;         /* centra en vertical */
+  background: #eef2ff;
+}
+
+.caja {
+  padding: 1.5rem 2rem;
+  background: #ffffff;
+  border: 2px solid #4338ca;
+  border-radius: 12px;
+  color: #1e1b4b;
+  font-weight: 600;
+}

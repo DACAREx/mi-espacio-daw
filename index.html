@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi espacio DAW</title>
+  <meta name="description" content="Apuntes y ejercicios de 2.º de Desarrollo de Aplicaciones Web.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <script>
+    /* Aplica el tema guardado (o el del sistema) antes de pintar, para evitar parpadeos */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('daw:tema'); } catch (e) {}
+      if (!t) t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#/" aria-label="Ir a la portada">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+        </span>
+        <span class="brand-name">Mi espacio DAW</span>
+      </a>
+      <nav class="main-nav" aria-label="Principal"></nav>
+      <div class="header-tools"></div>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <div class="container" id="app">
+      <p class="loading">Cargando…</p>
+      <noscript><p>Esta web necesita JavaScript para mostrar el contenido.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span id="footer-info"></span>
+      <a id="footer-repo" href="https://github.com/DACAREx" target="_blank" rel="noopener noreferrer">Repositorio en GitHub</a>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/highlight.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

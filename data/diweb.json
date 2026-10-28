@@ -1,0 +1,306 @@
+{
+  "temas": [
+    {
+      "id": "tema-01",
+      "numero": 1,
+      "titulo": "Introducción al diseño de interfaces web",
+      "descripcion": "Evolución y tendencias del diseño web, interacción persona-ordenador y leyes de la Gestalt.",
+      "etiquetas": [
+        "introducción"
+      ],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Diapositivas de la UD1: Introducción al Diseño de Interfaces Web",
+          "descripcion": "Material del profesor, curso 2026/27.",
+          "etiquetas": [
+            "pdf",
+            "diapositivas"
+          ],
+          "carpeta": "archivos/diweb/tema-01/teoria/t-01/",
+          "contenido": [
+            "Diapositivas del profesor **Francisco Jesús Gómez Romero**, curso 2026/27, con licencia CC BY-NC-SA."
+          ],
+          "archivos": [
+            "ud1-introduccion-diseno-interfaces-web.pdf"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Línea de tiempo del diseño web",
+          "descripcion": "Hitos de la web desde 1989 hasta 2014.",
+          "etiquetas": [
+            "historia"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-01/",
+          "archivos": [
+            "linea-del-tiempo.png"
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Tendencias actuales en el diseño web",
+          "descripcion": "Tipografías, imágenes, modo oscuro, responsive, PWA, IA y más.",
+          "etiquetas": [
+            "tendencias",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-02/",
+          "archivos": [
+            "tendencias-diseno-web.pdf"
+          ]
+        },
+        {
+          "id": "ej-03",
+          "titulo": "Interacción persona-ordenador: UI y UX",
+          "descripcion": "Diferencia entre interfaz de usuario y experiencia de usuario.",
+          "etiquetas": [
+            "ux",
+            "ui",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-03/",
+          "archivos": [
+            "ui-ux.pdf"
+          ]
+        },
+        {
+          "id": "ej-04",
+          "titulo": "Principios del diseño iterativo",
+          "descripcion": "Consistencia, facilidad de uso, control, accesibilidad y prevención de errores.",
+          "etiquetas": [
+            "principios",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-04/",
+          "archivos": [
+            "principios-diseno.pdf"
+          ]
+        },
+        {
+          "id": "ej-05",
+          "titulo": "Leyes de la Gestalt",
+          "descripcion": "Proximidad, continuidad y figura y fondo, con ejemplos.",
+          "etiquetas": [
+            "gestalt",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-05/",
+          "archivos": [
+            "leyes-gestalt.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tema-02",
+      "numero": 2,
+      "titulo": "Elementos de una interfaz web",
+      "descripcion": "Elementos principales, componentes y elementos conceptuales, visuales, de relación y prácticos.",
+      "etiquetas": [
+        "html"
+      ],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Diapositivas de la UD2: Elementos de una interfaz Web",
+          "descripcion": "Material del profesor, curso 2026/27.",
+          "etiquetas": [
+            "pdf",
+            "diapositivas"
+          ],
+          "carpeta": "archivos/diweb/tema-02/teoria/t-01/",
+          "contenido": [
+            "Diapositivas del profesor **Francisco Jesús Gómez Romero**, curso 2026/27, con licencia CC BY-NC-SA."
+          ],
+          "archivos": [
+            "ud2-elementos-interfaz-web.pdf"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Tabla de elementos estructurales",
+          "descripcion": "Componentes, usos, etiquetas HTML5 y ejemplos visuales.",
+          "etiquetas": [
+            "html",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-02/ejercicios/ej-01/",
+          "archivos": [
+            "elementos-estructurales.pdf"
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Página con elementos semánticos de HTML5",
+          "descripcion": "Cabecera, secciones, artículos, tabla, formulario, audio, vídeo y más.",
+          "etiquetas": [
+            "html",
+            "formularios"
+          ],
+          "carpeta": "archivos/diweb/tema-02/ejercicios/ej-02/",
+          "archivos": [
+            "index.html"
+          ],
+          "demo": true
+        },
+        {
+          "id": "ej-03",
+          "titulo": "Elementos conceptuales, visuales, relacionales y prácticos",
+          "descripcion": "Análisis de los elementos de la página anterior.",
+          "etiquetas": [
+            "análisis",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-02/ejercicios/ej-03/",
+          "archivos": [
+            "elementos-conceptuales.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tema-03",
+      "numero": 3,
+      "titulo": "Prototipado",
+      "descripcion": "Mapa de navegación, sitemap XML y HTML, y prototipado: sketch, wireframe, mockup y prototipo.",
+      "etiquetas": [
+        "navegación",
+        "prototipado"
+      ],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Diapositivas de la UD3: Prototipado",
+          "descripcion": "Material del profesor, curso 2026/27.",
+          "etiquetas": [
+            "pdf",
+            "diapositivas"
+          ],
+          "carpeta": "archivos/diweb/tema-03/teoria/t-01/",
+          "contenido": [
+            "Diapositivas del profesor **Francisco Jesús Gómez Romero**, curso 2026/27, con licencia CC BY-NC-SA."
+          ],
+          "archivos": [
+            "ud3-prototipado.pdf"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-01",
+          "titulo": "Web de videojuegos con mapa del sitio",
+          "descripcion": "Tres páginas enlazadas más sitemap.html y sitemap.xml.",
+          "etiquetas": [
+            "html",
+            "sitemap",
+            "xml"
+          ],
+          "carpeta": "archivos/diweb/tema-03/ejercicios/ej-01/",
+          "archivos": [
+            "index.html",
+            "juegos.html",
+            "contacto.html",
+            "sitemap.html",
+            "sitemap.xml"
+          ],
+          "enunciado": [
+            "Imagina un sitio web que contenga al menos 3 páginas diferentes.",
+            "",
+            "1. Crea un diagrama que muestre conceptualmente cómo navegarán los usuarios entre estas páginas.",
+            "2. Crea las páginas anteriores usando solo HTML5. Incluye los enlaces de navegación entre todas las páginas.",
+            "3. Crea el XML sitemap.",
+            "4. Crea el HTML sitemap."
+          ],
+          "notas": [
+            "**Criterios de evaluación**",
+            "",
+            "- **Diagrama de navegación conceptual** (RA1.c / Tarea 1). Nivel 1 (1-4.9): Representa menos de 3 páginas o las relaciones entre ellas son confusas o erróneas. No muestra con claridad el flujo de navegación entre secciones. Nivel 2 (5-8.9): Muestra un diagrama conceptual claro con al menos 3 páginas interconectadas mediante flechas que reflejan un flujo lógico de navegación. Nivel 3 (9-10): Diseña un diagrama conceptual completo, estructurado y jerarquizado (≥3 páginas), especificando con precisión los flujos bidireccionales y la arquitectura del sitio.",
+            "- **Desarrollo en HTML5 (estructura y semántica)** (RA1.e / Tarea 2). Nivel 1 (1-4.9): Las páginas no utilizan etiquetas semánticas de HTML5 (abuso de `<div>` sin sentido) o contienen errores de sintaxis que impiden una estructura correcta. Nivel 2 (5-8.9): Crea las 3 páginas utilizando etiquetas semánticas estándar de HTML5 (`<header>`, `<nav>`, `<main>`, `<footer>`, etc.) con sintaxis limpia y correcta. Nivel 3 (9-10): Estructura las páginas con un dominio excelente de HTML5 semántico, aplicando buenas prácticas de maquetación y accesibilidad para presentar la información.",
+            "- **Enlaces de navegación y usabilidad** (RA6.b / Tarea 2). Nivel 1 (1-4.9): Faltan enlaces entre páginas, existen enlaces rotos o la navegación no es consistente, dejando al usuario desorientado o en páginas «sin salida». Nivel 2 (5-8.9): Incluye menús de navegación con enlaces relativos correctos que permiten navegar de forma bidireccional entre las 3 páginas sin errores. Nivel 3 (9-10): Integra un sistema de navegación intuitivo, coherente y amigable en todas las páginas, garantizando una experiencia de usuario fluida y sin interrupciones.",
+            "- **Mapa del sitio en XML (sitemap XML)** (RA1.c / RA1.e / Tarea 3). Nivel 1 (1-4.9): El archivo XML presenta errores de formato (etiquetas mal cerradas, sintaxis incorrecta) o no incluye las URLs de las páginas del sitio. Nivel 2 (5-8.9): Elabora un archivo sitemap.xml válido bajo la estructura estándar del protocolo (`<urlset>`, `<url>`, `<loc>`), incluyendo todas las páginas creadas. Nivel 3 (9-10): Construye un sitemap.xml impecable conforme al estándar oficial, incorporando metadatos opcionales bien configurados (`<lastmod>`, `<changefreq>`, `<priority>`).",
+            "- **Mapa del sitio en HTML (sitemap HTML)** (RA6.b / Tarea 4). Nivel 1 (1-4.9): El mapa del sitio en HTML está incompleto, no incluye enlaces funcionales a las páginas o carece de una ordenación lógica para el usuario. Nivel 2 (5-8.9): Diseña una página HTML dedicada que lista y enlaza de forma clara y funcional todas las secciones del sitio para orientar al visitante. Nivel 3 (9-10): Crea una página de sitemap HTML altamente accesible, organizada por categorías/jerarquías y con excelente usabilidad para el usuario final."
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Web de un restaurante: mapa de navegación y prototipo",
+          "descripcion": "Diagrama de navegación y prototipo de 3 páginas siguiendo el flujo SWMP.",
+          "etiquetas": [
+            "prototipado",
+            "figma",
+            "swmp"
+          ],
+          "enunciado": [
+            "Acaban de inaugurar un nuevo restaurante en Ubrique y su dueño desea promocionarlo mediante una web en la que además se permita realizar pedidos a domicilio y reservas de mesas. Imagina que te encargan diseñar la web.",
+            "",
+            "## 1. Mapa de navegación (15 min)",
+            "Diseña el mapa de navegación mediante un diagrama, indicando cómo se va de una página a otra:",
+            "- Establece las páginas que va a tener la web (al menos 3).",
+            "- Enlaza mediante flechas cómo se relacionan las páginas entre sí.",
+            "",
+            "## 2. Prototipo siguiendo el flujo SWMP",
+            "Diseña el prototipo que usarías para cada página (3 páginas):",
+            "- Establece los elementos comunes a todas las páginas (cabecera, navegación…).",
+            "- Y los concretos de cada página (imágenes, botones, formularios…): 3 elementos.",
+            "- Distribuye los elementos en el espacio de la página teniendo en cuenta lo estudiado: forma, orden, color, textura, dirección, etc., para favorecer la experiencia de usuario.",
+            "",
+            "Fases:",
+            "- **Sketch** (10 min): a mano alzada.",
+            "- **Wireframe** (10 min): digitaliza con la herramienta Figma o similar (ver tutorial).",
+            "- **Mockup** (10 min): dale contenido a los elementos: color, imágenes, iconos.",
+            "- **Prototipo** (10 min): dale interacción a los botones."
+          ],
+          "notas": [
+            "**Criterios de evaluación**",
+            "",
+            "- **Mapa de navegación** (RA1.c / Tarea 1). Nivel 1 (1-4.9): Define menos de 3 páginas o las relaciones entre ellas son confusas, incompletas o carecen de flechas de flujo. No queda claro cómo se navega por la web. Nivel 2 (5-8.9): Define al menos 3 páginas vinculadas mediante flechas, reflejando una estructura lógica de navegación para la web del restaurante. Nivel 3 (9-10): Diseña un mapa de navegación claro, completo y jerarquizado (≥3 páginas), detallando con precisión todos los flujos de interacción entre secciones (inicio, pedidos y reservas).",
+            "- **Metodología SWMP y uso de herramientas** (RA1.e / Tarea 2). Nivel 1 (1-4.9): Omite fases del flujo SWMP o no emplea herramientas digitales como Figma para la transición desde el boceto inicial hasta el prototipo. Nivel 2 (5-8.9): Completa las 4 fases del flujo SWMP (Sketch manual, Wireframe digital, Mockup con estilo y Prototipo interactivo) haciendo uso adecuado de Figma o similar. Nivel 3 (9-10): Ejecuta con rigor y continuidad la metodología SWMP, justificando el paso del Sketch analógico a un prototipo digital avanzado mediante el uso óptimo de Figma.",
+            "- **Estructuración y elementos de interfaz** (RA6.b / Tareas 2.1 y 2.2). Nivel 1 (1-4.9): No mantiene consistencia en los elementos comunes (cabecera, navegación) o no incluye al menos 3 elementos específicos por página (imágenes, botones, formularios). Nivel 2 (5-8.9): Mantiene elementos comunes en las 3 páginas e incluye al menos 3 elementos específicos adecuados a la función de cada página (carta, pedido a domicilio, reserva). Nivel 3 (9-10): Integra elementos comunes perfectamente consolidados e incluye elementos específicos optimizados que facilitan las tareas de pedido a domicilio y reserva de mesas en Ubrique.",
+            "- **Diseño visual y experiencia de usuario (UX)** (RA6.b / Tarea 2.3). Nivel 1 (1-4.9): La distribución espacial es desordenada. No se percibe la aplicación de principios visuales (forma, color, jerarquía, dirección) para guiar al usuario. Nivel 2 (5-8.9): Distribuye los elementos espaciales considerando forma, orden y color, logrando una interfaz legible y fácil de usar para el público objetivo. Nivel 3 (9-10): Aplica de manera avanzada los principios visuales (jerarquía visual, contraste, color, dirección y textura), creando una experiencia de usuario altamente intuitiva y adaptada al restaurante.",
+            "- **Interacción y funcionalidad** (RA6.b / Tarea Prototipo). Nivel 1 (1-4.9): Los botones y elementos de acción no presentan interactividad o esta no permite realizar los flujos principales. Nivel 2 (5-8.9): Configura interacciones en los botones principales que permiten simular la navegación fluida entre las 3 páginas del sitio. Nivel 3 (9-10): Implementa interacciones realistas y dinámicas en botones y formularios, guiando eficazmente al cliente en el proceso de reserva de mesa y pedido a domicilio.",
+            "",
+            "Ejemplo de mapa conceptual: todas las páginas tienen botón de inicio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tema-04",
+      "numero": 4,
+      "titulo": "Guías de estilo",
+      "descripcion": "Importancia de la guía de estilo, color y accesibilidad (WCAG), tipografía, componentes e iconografía.",
+      "etiquetas": [
+        "guía de estilo",
+        "accesibilidad"
+      ],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Diapositivas de la UD4: Guías de estilo",
+          "descripcion": "Material del profesor, curso 2026/27.",
+          "etiquetas": [
+            "pdf",
+            "diapositivas"
+          ],
+          "carpeta": "archivos/diweb/tema-04/teoria/t-01/",
+          "contenido": [
+            "Diapositivas del profesor **Francisco Jesús Gómez Romero**, curso 2026/27, con licencia CC BY-NC-SA."
+          ],
+          "archivos": [
+            "ud4-guias-de-estilo.pdf"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": []
+    }
+  ]
+}

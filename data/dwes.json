@@ -1,0 +1,122 @@
+{
+  "temas": [
+    {
+      "id": "presentacion",
+      "titulo": "Presentación del módulo",
+      "descripcion": "Objetivos, contenidos por evaluación, metodología y sistema de evaluación.",
+      "etiquetas": [
+        "presentación"
+      ],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Presentación de DWES",
+          "descripcion": "Presentación del módulo del curso 2026/2027.",
+          "etiquetas": [
+            "pdf"
+          ],
+          "carpeta": "archivos/dwes/presentacion/teoria/t-01/",
+          "archivos": [
+            "presentacion-dwes.pdf"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": []
+    },
+    {
+      "id": "tema-01",
+      "numero": 1,
+      "titulo": "Arquitecturas y herramientas de programación web",
+      "descripcion": "Modelo cliente/servidor, páginas estáticas y dinámicas, lenguajes de servidor, herramientas y XAMPP.",
+      "etiquetas": [
+        "arquitectura",
+        "xampp"
+      ],
+      "teoria": [
+        {
+          "id": "t-01",
+          "titulo": "Apuntes del Tema 1",
+          "descripcion": "Documento del profesor, curso 26/27.",
+          "etiquetas": [
+            "pdf"
+          ],
+          "carpeta": "archivos/dwes/tema-01/teoria/t-01/",
+          "archivos": [
+            "tema-01-arquitecturas-herramientas.pdf"
+          ]
+        },
+        {
+          "id": "t-02",
+          "titulo": "Guía: poner en marcha el entorno de trabajo",
+          "descripcion": "Pasos para dejar listo XAMPP, MySQL Workbench, VS Code y GitHub.",
+          "etiquetas": [
+            "xampp",
+            "git",
+            "guía"
+          ],
+          "contenido": [
+            "Guía rápida para tener el entorno listo y poder hacer tus propios ejercicios.",
+            "",
+            "## 1. XAMPP (Apache, MySQL y PHP)",
+            "",
+            "- Descarga XAMPP desde apachefriends.org e instálalo. En Windows se instala por defecto en `C:\\xampp`.",
+            "- Abre el Panel de Control de XAMPP y pulsa **Start** en Apache y en MySQL. Deben ponerse en verde.",
+            "- Comprueba que funciona abriendo `http://localhost/dashboard/` en el navegador.",
+            "",
+            "## 2. Carpeta de trabajo",
+            "",
+            "- Apache sirve lo que haya en `C:\\xampp\\htdocs`.",
+            "- Crea una carpeta para el módulo (por ejemplo `dwes2627`) con una subcarpeta por tema (`tema-01`, `tema-02`…).",
+            "- Un archivo `C:\\xampp\\htdocs\\dwes2627\\tema-01\\hola.php` se abre en `http://localhost/dwes2627/tema-01/hola.php`.",
+            "",
+            "## 3. Bases de datos",
+            "",
+            "- **phpMyAdmin:** `http://localhost/phpmyadmin/`, ya incluido en XAMPP.",
+            "- **MySQL Workbench:** crea una conexión con host `127.0.0.1`, puerto `3306` y usuario `root`. En una instalación nueva de XAMPP no tiene contraseña.",
+            "",
+            "## 4. Visual Studio Code",
+            "",
+            "- Abre la carpeta del módulo con *File → Open Folder*.",
+            "- Extensiones útiles: un cliente de bases de datos (por ejemplo *Database Client*), *PHP Intelephense* y alguna de fragmentos de Bootstrap.",
+            "",
+            "## 5. Git y GitHub",
+            "",
+            "Crea una cuenta en github.com y un repositorio vacío. Después, desde la carpeta del módulo:",
+            "",
+            "```bash",
+            "git init",
+            "git add .",
+            "git commit -m \"Primer commit\"",
+            "git branch -M main",
+            "git remote add origin https://github.com/TU-USUARIO/dwes2627.git",
+            "git push -u origin main",
+            "```"
+          ]
+        }
+      ],
+      "ejemplos": [
+        {
+          "id": "e-01",
+          "titulo": "Plantilla base con Bootstrap",
+          "descripcion": "Esqueleto de página con cabecera, contenido y pie, para reutilizar en tus ejercicios.",
+          "etiquetas": [
+            "php",
+            "bootstrap",
+            "plantilla"
+          ],
+          "carpeta": "archivos/dwes/tema-01/ejemplos/e-01/",
+          "contenido": [
+            "Plantilla `layout.php` con Bootstrap 5.3.8 cargado desde CDN.",
+            "",
+            "Cópiala a tu carpeta de ejercicios y rellena el título y el contenido de `main`. Necesita conexión a Internet para cargar Bootstrap."
+          ],
+          "archivos": [
+            "layout.php"
+          ]
+        }
+      ],
+      "ejercicios": []
+    }
+  ]
+}
