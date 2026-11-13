@@ -302,5 +302,101 @@
       "ejemplos": [],
       "ejercicios": []
     }
+    {
+      "id": "tema-05",
+      "numero": 1,
+      "titulo": "Modelos de diseño",
+      "descripcion": "Modelos de diseño",
+      "etiquetas": [
+        "arquitectura",
+        "guia de estilo"
+      ],
+      "teoria": [
+        {
+          "id": "t-05",
+          "titulo": "Diapositivas de la UD5: Modelos de diseño",
+          "descripcion": "Material del profesor, curso 2026/27.",
+          "etiquetas": [
+            "pdf",
+            "diapositivas"
+          ],
+          "carpeta": "archivos/diweb/tema-05/teoria/t-05/",
+          "contenido": [
+            "Diapositivas del profesor **Francisco Jesús Gómez Romero**, curso 2026/27, con licencia CC BY-NC-SA."
+          ],
+          "archivos": [
+            "ud5-introduccion-diseno-interfaces-web.pdf"
+          ]
+        }
+      ],
+      "ejemplos": [],
+      "ejercicios": [
+        {
+          "id": "ej-03",
+          "titulo": "Ejemplo web modelos",
+          "descripcion": "Hitos de la web desde 1989 hasta 2014.",
+          "etiquetas": [
+            "historia"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-01/",
+          "archivos": [
+            "linea-del-tiempo.png"
+          ]
+        },
+        {
+          "id": "ej-02",
+          "titulo": "Tendencias actuales en el diseño web",
+          "descripcion": "Tipografías, imágenes, modo oscuro, responsive, PWA, IA y más.",
+          "etiquetas": [
+            "tendencias",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-02/",
+          "archivos": [
+            "tendencias-diseno-web.pdf"
+          ]
+        },
+        {
+          "id": "ej-03",
+          "titulo": "Interacción persona-ordenador: UI y UX",
+          "descripcion": "Diferencia entre interfaz de usuario y experiencia de usuario.",
+          "etiquetas": [
+            "ux",
+            "ui",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-03/",
+          "archivos": [
+            "ui-ux.pdf"
+          ]
+        },
+        {
+          "id": "ej-04",
+          "titulo": "Principios del diseño iterativo",
+          "descripcion": "Consistencia, facilidad de uso, control, accesibilidad y prevención de errores.",
+          "etiquetas": [
+            "principios",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-04/",
+          "archivos": [
+            "principios-diseno.pdf"
+          ]
+        },
+        {
+          "id": "ej-05",
+          "titulo": "Leyes de la Gestalt",
+          "descripcion": "Proximidad, continuidad y figura y fondo, con ejemplos.",
+          "etiquetas": [
+            "gestalt",
+            "pdf"
+          ],
+          "carpeta": "archivos/diweb/tema-01/ejercicios/ej-05/",
+          "archivos": [
+            "leyes-gestalt.pdf"
+          ]
+        }
+      ]
+    },
   ]
 }
