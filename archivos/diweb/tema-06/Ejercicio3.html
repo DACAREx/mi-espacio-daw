@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        h1 {
+            color: green;
+        }
+
+        p {
+            color: orange;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 1. ¿De qué color aparece el título?
+         Respuesta: Verde, porque el estilo interno prevalece sobre el externo. -->
+
+    <!-- 2. ¿Qué tamaño tiene el título?
+         Respuesta: 30px, porque está definido en el CSS externo. -->
+
+    <h1 style="color: black;">Mi página web</h1>
+
+    <!-- 5. Modifica el HTML para que el título aparezca en negro utilizando un estilo en línea.
+         Respuesta: Se añade style="color: black;" al h1. -->
+
+
+    <!-- 3. ¿De qué color aparece el primer párrafo?
+         Respuesta: Naranja, porque prevalece el estilo interno. -->
+
+    <p>Primer párrafo.</p>
+
+
+    <!-- 4. ¿De qué color aparece el segundo párrafo?
+         Respuesta: Rojo, porque el estilo en línea tiene prioridad. -->
+
+    <p style="color: red;">Segundo párrafo.</p>
+
+
+    <!-- 6. Elimina los estilos internos. ¿Qué sucede con los colores?
+         Respuesta:
+         - El título aparece en azul.
+         - El primer párrafo aparece en negro.
+         - El segundo párrafo aparece en rojo.
+         Esto ocurre porque se aplica el CSS externo y el estilo en línea. -->
+
+</body>
+</html>
